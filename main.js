@@ -2,8 +2,48 @@
  * YOUR CODE HERE *
  ******************/
 
+ //#1//
+function addMeToEnd(arr){
+  arr.push('Colin')
+}
+
+//#2//
+function addMeToStart(arr){
+  arr.unshift('Colin')
+}
+
+//#3//*** */
+function changeLast(arr1){
+  arr1.splice(arr1.length-1, 1, 5);
+
+}
 
 
+//#4//
+function changeAllValuesTo(arr){
+  for (let i = 0; i <arr.length; i++){
+}
+}
+
+//#5//
+function oddOrEven(arr){
+  for (let i = 0; i <arr.length; i++){
+    if (i % 2 === 0){
+      arr.splice(i, 'even')
+    } else {
+      arr.splice(i, 'odd')
+    }
+    }
+  }
+
+
+//#6//
+function changeNextThreeToValue(arr){
+for (let i = 0; i <arr.length; i++){
+  arr.splice(arr.indexOf, 15);
+
+}
+}
 
 
 /*********************************
